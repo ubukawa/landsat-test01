@@ -15,7 +15,7 @@
       "attribution": "Landsat-8 image courtesy of the U.S. Geological Survey" 
       "minzoom": 6,
       "maxzoom": 12
-    },
+    }
   },
   "sprite": "https://ubukawa.github.io/VT-test-0614/sprite/sprite",
   "glyphs": "https://ubukawa.github.io/VT-test-0614/font/{fontstack}/{range}.pbf",
