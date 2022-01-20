@@ -5,12 +5,14 @@
     "ne-test": {
       "type": "vector",
       "tiles": ["https://ubukawa.github.io/VT-test-0614/ne-test/{z}/{x}/{y}.pbf"],
+      "attribution": "NaturalEarth",
       "minzoom": 0,
       "maxzoom": 5
     },
     "r": {
       "type": "raster",
       "tiles": ["https://ubukawa.github.io/landsat-test01/test-image01/default/{z}/{x}/{y}.png"],
+      "attribution": "Landsat-8 image courtesy of the U.S. Geological Survey",
       "tileSize": 256,
       "maxzoom": 12
     }
