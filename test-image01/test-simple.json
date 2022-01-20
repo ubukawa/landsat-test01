@@ -7,6 +7,12 @@
       "tiles": ["https://ubukawa.github.io/VT-test-0614/ne-test/{z}/{x}/{y}.pbf"],
       "minzoom": 0,
       "maxzoom": 5
+    },
+    "r": {
+      "type": "raster",
+      "tiles": ["https://ubukawa.github.io/landsat-test01/test-image01/default/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "maxzoom": 12
     }
   },
   "sprite": "https://ubukawa.github.io/VT-test-0614/sprite/sprite",
