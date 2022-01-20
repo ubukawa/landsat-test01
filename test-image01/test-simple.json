@@ -10,7 +10,7 @@
     },
     "landsat": {
       "type": "raster",
-      "tiles": ["landsat-test01/test-image01/TMS/{z}/{x}/{y}.png"],
+      "tiles": ["https://ubukawa.github.io/landsat-test01/test-image01/TMS/{z}/{x}/{y}.png"],
       "tileSize": 256,
       "attribution": "Landsat-8 image courtesy of the U.S. Geological Survey" 
       "minzoom": 6,
