@@ -35,7 +35,7 @@
       "paint": {"fill-color": "rgba(174, 255, 147, 1)"}
     },
     {
-      "id": "sat-image",
+      "id": "landsat",
       "type": "raster",
       "source": "landsat",
       "minzoom": 6,
