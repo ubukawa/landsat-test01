@@ -7,14 +7,6 @@
       "tiles": ["https://ubukawa.github.io/VT-test-0614/ne-test/{z}/{x}/{y}.pbf"],
       "minzoom": 0,
       "maxzoom": 5
-    },
-    "landsat": {
-      "type": "raster",
-      "tiles": ["https://ubukawa.github.io/landsat-test01/test-image01/TMS/{z}/{x}/{y}.png"],
-      "tileSize": 256,
-      "attribution": "Landsat-8 image courtesy of the U.S. Geological Survey" 
-      "minzoom": 6,
-      "maxzoom": 12
     }
   },
   "sprite": "https://ubukawa.github.io/VT-test-0614/sprite/sprite",
@@ -33,13 +25,6 @@
       "source-layer": "landmass",
       "maxzoom": 5,
       "paint": {"fill-color": "rgba(174, 255, 147, 1)"}
-    },
-    {
-      "id": "sat-image",
-      "type": "raster",
-      "source": "landsat",
-      "minzoom": 6,
-      "maxzoom": 12
     },
     {
       "id": "coastline",
